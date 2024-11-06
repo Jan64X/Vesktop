@@ -1,6 +1,7 @@
 # Vesktop
 
 Vesktop is a custom Discord desktop app
+but this fork removes the rainbox icon and the furry launch animation!
 
 **Main features**:
 - Vencord preinstalled
@@ -17,14 +18,14 @@ Vesktop is a custom Discord desktop app
 
 ## Installing
 
-TODO
+Just install the package of you distro :idk:
 
 ## Building from Source
 
 Packaging will create builds in the dist/ folder
 
 ```sh
-git clone https://github.com/Vencord/Vesktop
+git clone https://github.com/Jan64X/Vesktop.git
 cd Vesktop
 
 # Install Dependencies
@@ -36,7 +37,7 @@ pnpm start
 # Or package
 pnpm package
 # Or only build the pacman target
-pnpm package --linux pacman
+pnpm package --linux pacman --x64
 # Or package to a directory only
 pnpm package:dir
 ```
